@@ -52,6 +52,9 @@ table {
     font-size: 62.5%;
     max-width: 100%;
 }
+body{
+background: ivory;
+}
 .aboutMe{
     display: flex;
     flex-direction: row-reverse;
@@ -60,6 +63,7 @@ table {
     display:flex;
     width:50%;
     justify-content: center;
+    background:ivory;
 }
 .rightsec{
     display: flex;
@@ -67,16 +71,34 @@ table {
     flex-direction: column;
     justify-content: center;
     text-align: center;
+    background: ivory;
 }
 h1{
     font-size: 4rem;
+    padding:5rem;
 }
 .rightsec p{
     color: crimson;
+    font-size: 2rem;
 }
 .headshot{
     display:flex;
     width:75%;
     padding:4rem;
+    background: ivory;
+    border-radius: 25%;
 }
 
+header nav{
+    background: steelblue;
+    display:flex;
+    justify-content: center;
+}
+nav a{
+    margin:1rem;
+    padding:10px;
+    background: ivory;
+    border-radius: 10px;
+    color: steelblue;
+    text-decoration: none;
+}
